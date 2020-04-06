@@ -2,14 +2,13 @@
 
 ## Things to include in your README
 
-* Your name. Indicate if you go by a nickname.
-* Status of your lab
-  * Complete, partially complete, incomplete
-  * If not complete, what does work? What doesn't?
-* Compilation and execution instructions
-  * `gcc -o piku piku.s` or `make`
-  * `./piku`
-* Issues that you encountered along the way, and anything you have questions about.
+* NAME: Tiger Sun 
+* STATUS: Complete
+* At first, I ran into issues of compilation where I was getting "Bad instruction"
+I was very confused. Then I looked into the ARM Guide and realized I was confusing
+my l's for 1's, foolish mistake! I found it interesting that I had to use r0 for 
+all three printf's for the provided code. When I experimented with r0, r1, and r2
+I received a segmentation fault, which was very interesting.
 
 These README files have a fairly rich _Markdown_ environment. You should use
 markdown syntax to format your README files in such a way that they look
